@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<{ disabled?: boolean; children?: React.ReactNode }>`
     width: 100%;
     height: 42px;
     background-color: #81259D;
